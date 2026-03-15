@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import logo from "./assets/logopw.png"
 export default function Navbar(){
+
     return(
         <header className="justify-around">
             <nav className="flex w-screen h-10 bg-gray-950 text-white text-start border-gray-800 border items-center justify-around">
