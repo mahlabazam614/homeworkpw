@@ -9,6 +9,8 @@ import alto from "./components/assets/Alto.png";
 import city from "./components/assets/City.jpg";
 import civic from "./components/assets/Civic.jpg";
 
+
+
 export default function Home() {
   const [activeTab, setActiveTab] = useState("Popular");
   const [showAdvancedFilter, setShowAdvancedFilter] = useState(false);
